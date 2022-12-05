@@ -9,6 +9,8 @@ public class CİRCLE_AREA {
 
         Scanner scan=new Scanner(System.in);
         System.out.println("Dairenin yarıcap degerini giriniz :");
+        System.out.println("main branch degişik 1.satır");
+        System.out.println("main branch degişik 2.satır");
 
          int r=scan.nextInt();
          double area=Math.PI*r*r;
