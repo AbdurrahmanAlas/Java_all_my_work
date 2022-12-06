@@ -1,0 +1,33 @@
+
+
+    BİR OKUL YÖNETİM PLATFORMU KODLAYINIZ
+
+    1. Programda öğrenci ve öğretmen kayıtları ile ilgili işlemler yapılbilmelidir.Kayıtlarda şu bilgiler olmalıdır
+
+           Öğretmen : Ad-Soyad ,Kimlik no ,yaş, bölüm,ve sicil No bilgileri içermelidir.
+           Öğrenci : Ad-Soyad ,Kimlik no, yaş ,numara,sınıf bilgileri içermelidir.
+
+    2.  Program başladığında Kullanıcıya Öğretmen ve Öğrenci işlemlerini secebilmesi için aşağıdaki gibi bir
+    menu gösterilsin
+
+
+        ÖĞRETMEN VE ÖĞRENCİ YÖNETİM PANELİ
+        --------------------------------------------------------------
+        1- ÖĞRENCİ İŞLEMLERİ
+        2- ÖĞRETMEN İŞLEMLERİ
+        Q -ÇIKIŞ
+
+    3.  Secilen kişi türüne göre aşağıdaki işlemleri gösteren bir alt menu daha gösterilsiin
+
+
+    ------------İŞLEMLER------------------
+            1-EKLEME
+            2-ARAMA
+            3-LİSTELEME
+            4-SİLME
+            Q-ÇIKIŞ
+
+       SECİMİNİZ
+
+    4. İslemler menüsünde secilen işleme göre bir öncek mmeüden seçilen kişi türü ile ilgili ekleme,
+    kimlik no ile silme ve arama var olan tüm kişilleri listeleme gibi işlemler yapılmalı
