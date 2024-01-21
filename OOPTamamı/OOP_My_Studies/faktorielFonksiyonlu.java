@@ -1,4 +1,4 @@
-package OOP_TAMAMI;
+package OOPTamamı.OOP_My_Studies;
 
 import java.util.Scanner;
 

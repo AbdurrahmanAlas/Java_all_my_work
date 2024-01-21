@@ -1,0 +1,37 @@
+
+
+1- KİSİ ,ÖĞRETMEN ,ÖĞRENCİ SINIFLARI OLUŞTURULUR.
+
+2- Öğretmen ve Öğrenci sınıflarında ortak olan Fields lar için Kişi sınıfında oluşturulup
+   Ortak olan kişi clasını öğrenci ve öğretmen clasına EXTENDS ederiz.
+
+3- CLASSLARDA  SIRASI İLE ŞU AŞAMALARI YAP.
+
+        1- FİELD LARI ÖZELLİKLERİ OLUŞTUR.
+        2- GETTER SETTER YAP.(ENCAPSULATION İÇİN)
+        3- CONSTRUCTOR OLUŞTUR. PARAMETRELİ VE PARAMETRESİZ.(BAŞKA CLASSLARDAN ERİŞİM SAĞLAMAK İÇİN)
+        4- ToString() METHODU OLUŞTUR.(EKRANDAN GÖRÜNTÜ ALABİLMEK İÇİN)
+
+4- ÖĞRETMEN VE ÖĞRENCİ CLASSLARINDA CONSTRUCTOR CAĞIRDIĞMIZDA SUPER ADI ALTINDA BİR METHOD GELİYOR.
+   BU SUPER İN OLAYI ŞU : BİR ÜST PARENT TEKİ ÖZELLİKLERİ GETİRİR. EXTENDS EDİLEN SINIFTAKİ ÖZELLİKLERİ GETİRİR.
+
+5- ANAMENU ADI ALTINDA BİR CLASS OLUŞTURURUZ BUNUN NEDENİ SORUDA VERİLEN MENU NUN AYRI BİR CLASSTAN YÖNETİLMESİDİR.
+
+                    ÖĞRETMEN VE ÖĞRENCİ YÖNETİM PANELİ
+                ----------------------------------------
+                  1- ÖĞRENCİ İŞLEMLERİ
+                  2- ÖĞRETMEN İŞLEMLERİ
+                  Q -ÇIKIŞ
+
+                ----------------------------------------
+
+6- ALTMENU DE EKLEME SİLME GÜNCELLEME ... GİBİ İŞLEMLER YAPILACAK BU İŞLEMLER STANDART OLDUĞU İÇİN INTERFACE İLE İMZA
+   ALTINA ALIRIZ OGRENCİMENU VE OGRETMENMENU ALTINDA İÇİNİ DOLDURURUZ
+
+7- OGRENCİMENU CLASSINDA SWITCH CASE METHODU KULLANARAK SECİMİ SECTİRMEYİ AYARLIYORUZ.
+
+8- OGRMENUDE EKLEME KISMINDA ogrencimenu adı altında birr nesne üretip onu ArrayList de öğrencilist e ekleme yapıyoruz.
+    ogrenciList te eklemeyi yapıyoruz. eklemede ogrencilistin boş olup olmadığını kontrol ediyoruz
+    (!ogrenciList.IsEmpty)
+
+9- OGRMENU DE ARAMA METHODUNDA FOR İLE YAPIYORUZ if(ogrencilist.get(i).getTcNo().equals(aranacakTcNo)

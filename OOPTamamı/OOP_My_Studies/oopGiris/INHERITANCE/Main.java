@@ -1,4 +1,4 @@
-package OOP_TAMAMI.oopGiris.INHERITANCE;
+package OOPTamamı.OOP_My_Studies.oopGiris.INHERITANCE;
 
 public class Main {
     public static void main(String[] args) {
