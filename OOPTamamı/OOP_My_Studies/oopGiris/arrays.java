@@ -1,4 +1,4 @@
-package OOP_TAMAMI.oopGiris;
+package OOPTamamı.OOP_My_Studies.oopGiris;
 
 import java.util.Scanner;
 
